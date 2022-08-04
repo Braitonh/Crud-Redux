@@ -23,6 +23,7 @@ export const CrudApp = () => {
 
             <div className='container mt-5'>
                 <Routes>
+                    <Route path='/*' element={ <Productos /> }/>
                     <Route path='/' element={<Productos />} />
                     <Route path='/productos/nuevo' element={<NuevoProducto />} />
                     <Route path='/productos/editar/:id' element={<EditarProducto />} />
