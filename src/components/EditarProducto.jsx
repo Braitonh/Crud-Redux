@@ -56,7 +56,7 @@ export const EditarProducto = () => {
                 dispatch(editarProducto(producto));
                 //Redirecciona al main
                 setTimeout(() => {
-                    navigate('/');
+                    navigate('/Crud-Redux');
                 }, 1000);
             } else if (result.isDenied) {
                 Swal.fire('Los cambios no fueron gurdados!', '', 'info')

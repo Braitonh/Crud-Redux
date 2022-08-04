@@ -53,7 +53,7 @@ export const NuevoProducto = () => {
           })
 
         //Redirecciona al main
-        navigate('/');
+        navigate('/Crud-Redux');
 
     };
 

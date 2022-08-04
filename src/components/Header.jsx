@@ -6,7 +6,7 @@ export const Header = () => {
     <nav className='navbar navbar-expand-lg navbar-dark bg-primary justify-content-between'>
         <div className='container'>
             <h1> 
-              <Link to={'/'} className='text-light'> 
+              <Link to={'/Crud-Redux'} className='text-light'> 
                 CRUD - React - Reduc - REST API & Axios
               </Link> 
             </h1>
